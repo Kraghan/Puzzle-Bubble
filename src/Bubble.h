@@ -11,6 +11,8 @@ class Bubble
 {
 public:
 
+    Bubble(unsigned int x, unsigned int y, BubbleColor color, BubbleType type);
+
     unsigned int getX();
 
     void setX(unsigned int x);

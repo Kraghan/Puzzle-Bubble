@@ -1,5 +1,12 @@
 #include "Bubble.h"
 
+Bubble::Bubble(unsigned int x, unsigned int y, BubbleColor color, BubbleType type){
+    this->x = x;
+    this->y = y;
+    this->color = color;
+    this->type = type;
+}
+
 unsigned int Bubble::getX(){
     return x;
 }
