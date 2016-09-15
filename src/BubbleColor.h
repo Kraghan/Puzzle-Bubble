@@ -14,6 +14,7 @@ enum class BubbleColor : int {
     YELLOW,
     PURPLE,
     BLACK,
-    WHITE
+    WHITE,
+    NONE
 };
 #endif //PUZZLE_BUBBLE_BUBBLECOLOR_H

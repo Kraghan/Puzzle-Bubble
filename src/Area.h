@@ -7,12 +7,15 @@
 
 #include "Bubble.h"
 #include <vector>
+#include <iostream>
 #include <cstdlib>
+#include <string>
 
 class Area {
 public:
     Area(unsigned int width, unsigned int height);
     ~Area();
+    void debug();
     void initRandom();
     bool isInBound(unsigned int x, unsigned int y);
 private:

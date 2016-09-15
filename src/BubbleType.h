@@ -14,6 +14,7 @@ enum class BubbleType : int {
     SWITCHER,
     BOMBER,
     RESIZER_HORIZONTAL,
-    RESIZER_VERTICAL
+    RESIZER_VERTICAL,
+    VOID
 };
 #endif //PUZZLE_BUBBLE_BUBBLETYPE_H
